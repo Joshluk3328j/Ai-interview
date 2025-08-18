@@ -40,7 +40,11 @@ This platform was developed as part of a rehabilitation initiative to:
 ## 🧪 How It Works
 
 1. **User starts a session** by selecting an avatar, language, and voice settings.
+
+![Interview Interface](https://github.com/Joshluk3328j/Ai-interview/blob/main/public/demo2.png?raw=true)
+
 2. **Live interview begins** — user interacts via voice or text.
+
 ![Interview Interface](https://github.com/Joshluk3328j/Ai-interview/blob/main/public/demo.png?raw=true)
 
 3. **Transcript is built** in real time, capturing both user and avatar turns.
