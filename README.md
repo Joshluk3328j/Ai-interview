@@ -4,6 +4,8 @@ This project is an **AI-powered interviewer platform**, ViewHire designed to con
 
 Built with **Next.js**, **TypeScript**, and **Python**, the system integrates the **HeyGen streaming avatar SDK**, **Hugging Face models**, and **PDF generation tools** to deliver a complete interview experience and post-session analysis.
 
+![Interview Interface](https://github.com/Joshluk3328j/Ai-interview/blob/main/public/demo.png?raw=true)
+
 ---
 
 ## 🎯 Purpose
@@ -50,4 +52,5 @@ This platform was developed as part of a rehabilitation initiative to:
 7. **User downloads PDF report** for documentation or review.
 
 ---
+
 
