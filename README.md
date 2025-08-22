@@ -1,6 +1,6 @@
 # 🧠 AI Interview System for Remote Hiring
 
-This project is an **AI-powered interviewer platform**, ViewHire designed to conduct structured, empathetic, and insightful interviews — particularly for use in HR. It combines real-time avatar interaction, voice and text input, transcript tracking, and automated evaluation to help assess communication skills, emotional readiness, and personal growth.
+This project is an **AI-powered interviewer platform**, ViewHire designed to conduct structured, professional, and insightful interviews — particularly for use in HR. It combines real-time avatar interaction, voice and text input, transcript tracking, and automated evaluation to help assess communication skills, emotional readiness, personal growth, and career relevance.
 
 Built with **Next.js**, **TypeScript**, and **Python**, the system integrates the **HeyGen streaming avatar SDK**, **Hugging Face models**, and **PDF generation tools** to deliver a complete interview experience and post-session analysis.
 
@@ -54,6 +54,7 @@ This platform was developed as part of a rehabilitation initiative to:
 7. **User downloads PDF report** for documentation or review.
 
 ---
+
 
 
 
