@@ -1,4 +1,4 @@
-# 🧠 AI Interview System for Remote Hiring
+# 🧠 ViewHire - AI Interview System for Remote Hiring
 
 This project is an **AI-powered interviewer platform**, ViewHire designed to conduct structured, professional, and insightful interviews — particularly for use in HR. It combines real-time avatar interaction, voice and text input, transcript tracking, and automated evaluation to help assess communication skills, emotional readiness, personal growth, and career relevance.
 
@@ -59,6 +59,7 @@ This platform was developed as part of a initiative to improve hiring process fo
 7. **User downloads PDF report** for documentation or review.
 
 ---
+
 
 
 
