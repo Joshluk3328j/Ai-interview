@@ -10,8 +10,13 @@ Built with **Next.js**, **TypeScript**, and **Python**, the system integrates th
 
 This platform was developed as part of a initiative to improve hiring process for HR with Real-Time Automated Interviewer (RTAI):
 
-- Help facilitators assess progress in communication, confidence, and clarity.
-- Generate structured transcripts and evaluations for review and documentation.
+- Realtime conversational interview with the AI system.
+- Candidates are been asked structured questions and with options to ask questions where they're not clear on questions asked or may ask questions for clarity.
+- System detects when there are multiple heads in the frame during an interview.
+- A start meeting with candidate registration to receive and check candidates data for validity.
+- The system autostop meetings when time allocated lapse.
+- Generates structured transcripts and evaluations for review and documentation.
+- Help the hiring team assess candidates suitability via communication, confidence, and clarity at expressing themselves.
 
 ---
 
@@ -54,6 +59,7 @@ This platform was developed as part of a initiative to improve hiring process fo
 7. **User downloads PDF report** for documentation or review.
 
 ---
+
 
 
 
