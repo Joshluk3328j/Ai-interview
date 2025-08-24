@@ -1,5 +1,17 @@
 export const AVATARS = [
   {
+    avatar_id: "Graham_ProfessionalLook_public",
+    name: "Graham",
+  },
+  {
+    avatar_id: "June_HR_public",
+    name: "June HR",
+  },
+  {
+    avatar_id: "Rika_Chair_Sitting_public",
+    name: "Rika",
+  },
+  {
     avatar_id: "Ann_Therapist_public",
     name: "Ann Therapist",
   },
@@ -8,8 +20,8 @@ export const AVATARS = [
     name: "Shawn Therapist",
   },
   {
-    avatar_id: "Bryan_FitnessCoach_public",
-    name: "Bryan Fitness Coach",
+    avatar_id: "SilasHR_public",
+    name: "Silas",
   },
   {
     avatar_id: "Dexter_Doctor_Standing2_public",
