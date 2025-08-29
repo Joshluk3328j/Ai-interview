@@ -2,7 +2,7 @@
 
 This project is an **AI-powered interviewer platform**, ViewHire designed to conduct structured, professional, and insightful interviews — particularly for use in HR. It combines real-time avatar interaction, voice and text input, transcript tracking, and automated evaluation to help assess communication skills, emotional readiness, personal growth, and career relevance.
 
-Built with **Next.js**, **TypeScript**, and **Python**, the system integrates the **HeyGen streaming avatar SDK**, **Hugging Face models**, and **PDF generation tools** to deliver a complete interview experience and post-session analysis for informed decision making.
+Built with **Next.js**, **TypeScript**, and **Python**, the system integrates the **HeyGen streaming avatar SDK**, **Hugging Face models**, **coco-ssd** and **PDF generation tools** to deliver a complete interview experience and post-session analysis for informed decision making.
 
 ---
 
@@ -14,7 +14,8 @@ This platform was developed as part of a initiative to improve hiring process fo
 - Candidates are been asked structured questions and with options to ask questions where they're not clear on questions asked or may ask questions for clarity.
 - System detects when there are multiple heads in the frame during an interview.
 - A start meeting with candidate registration to receive and check candidates data for validity.
-- The system autostop meetings when time allocated lapse.
+- The system autostop meetings when interview is over.
+- Visual feedback for the Avatar (multiple people detection as the interview is meant for a single person).
 - Generates structured transcripts and evaluations for review and documentation.
 - Help the hiring team assess candidates suitability via communication, confidence, and clarity at expressing themselves.
 
@@ -25,6 +26,7 @@ This platform was developed as part of a initiative to improve hiring process fo
 - Real-time AI avatar interviewer (via HeyGen SDK)
 - Voice and text input support
 - Live transcript tracking with speaker labels
+- Visual Feedback for the Avatar
 - Summarized transcript generation
 - Automated evaluation using NLP models
 - PDF report export (transcript + evaluation)
@@ -36,9 +38,10 @@ This platform was developed as part of a initiative to improve hiring process fo
 ## 🛠️ Technologies Used
 | Frontend | Backend | AI Modules | PDF Generation | Avatar Streaming | Evaluation Logic|
 |----------|---------|------------|----------------|------------------|-----------------|
-| React 19 | Node.js | Hugging Face Transformers| Report Lab| Heygen SDK| Custom rubric scoring via python
-| TailwindCSS | Typescript|------------|----------------|------------------|-----------------|
+| React 19 | Node.js | Hugging Face Transformers| Report Lab| Heygen SDK| Custom rubric scoring via python|
+| TailwindCSS | Typescript|coco-ssd|----------------|------------------|-----------------|
 | Next.js | Python 3.10 |------------|----------------|------------------|-----------------|
+
 
 ---
 
@@ -59,6 +62,7 @@ This platform was developed as part of a initiative to improve hiring process fo
 7. **User downloads PDF report** for documentation or review.
 
 ---
+
 
 
 
